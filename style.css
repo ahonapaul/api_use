@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: barcode;
+    src: url(LibreBarcode39Text-Regular.ttf);
+}
+
+@font-face {
+    font-family: handwrite;
+    src: url(PatrickHandSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: sansserif;
+    src: url(IBMPlexSans-Regular.ttf);
+}
+
+body{
+    background-color: rgb(250, 212, 219);
+}
+
+h1{
+    font-family: 'barcode';
+    font-size: 150px;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+h2{
+    font-family: 'sansserif';
+    letter-spacing: 20px;
+    font-weight: 120;
+    font-stretch: expanded;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'handwrite';
+    font-size: 50px;
+}
+
+div [id="1"]{
+    margin-left: 200px;
+}
+
+div [id="2"]{
+    margin-left: 450px;
+}
+
+div [id="3"]{
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+div [id="4"]{
+    margin-left: 150px;
+}
+
+div [id="5"]{
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+div [id="6"]{
+    margin-left: 320px;
+    margin-top: -200px;
+}
+
+div [id="7"]{
+    margin-left: 280px;
+    margin-top: -170px;
+}
+
+div [id="8"]{
+    margin-left: 290px;
+    margin-top: -120px;
+}

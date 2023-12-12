@@ -17,8 +17,8 @@ const getSounds = async function(){
             }
         })
 
-        // const animalh1 = document.getElementById("animalIDs");
-        // animalh1.innerHTML = animalIDsJSON;
+        const animalh1 = document.getElementById("animalIDs");
+        animalh1.innerHTML = animalIDsJSON;
 
     }catch(error){
         console.log(error);
